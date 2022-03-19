@@ -1,6 +1,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Space+Mono&display=swap");
 
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 50;
+}
+
+* {
+    box-sizing: border-box;
+}
 * {
     --rifle-green: #53563bff;
     --gray-x-11-gray: #b8bab9ff;
@@ -10,11 +21,13 @@
 }
 img {
     width: 100%;
+    opacity: 80%;
+    border-radius: 50px;
 }
 
 header {
     width: 50vw;
-    font-weight: 2000;
+    border: #201f18ff;
 }
 body {
     display: flex;
@@ -24,10 +37,40 @@ body {
     font-weight: 700;
 }
 
-main {
-    background-image: url("./assets/shepherd-gc07e118af_1920.jpg");
+.button1 {
+    background-color: var(--rifle-green);
+    border: 2px solid white;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+.button1:hover {
+    background-color: white;
+    color: black;
+}
 
+.button2 {
+    background-color: var(--rifle-green);
+    border: 2px solid white;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
 
-
+.button2:hover {
+    background-color: white;
+    color: black;
+}
